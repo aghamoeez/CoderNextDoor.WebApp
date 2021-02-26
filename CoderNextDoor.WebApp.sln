@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoderNextDoor.WebApp", "CoderNextDoor.WebApp\CoderNextDoor.WebApp.csproj", "{59FFD2FD-1090-46C3-AAED-6F83036918E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{21C4AB64-579D-449D-B1C9-42FCE2D4462E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F5C4B975-C7FA-430E-93C9-56F222867FBD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoderNextDoor.DataAccess", "CoderNextDoor.DataAccess\CoderNextDoor.DataAccess.csproj", "{E57CED56-0C33-426C-A17D-C2691DEDA499}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoderNextDoor.Api", "CoderNextDoor.WebApi\CoderNextDoor.Api.csproj", "{1DE3EF62-5886-4BED-97ED-92340025D46A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoderNextDoor.Shared", "CoderNextDoor.Shared\CoderNextDoor.Shared.csproj", "{0D6DD43C-D652-427E-8D5D-0727EDB95BFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59FFD2FD-1090-46C3-AAED-6F83036918E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59FFD2FD-1090-46C3-AAED-6F83036918E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59FFD2FD-1090-46C3-AAED-6F83036918E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59FFD2FD-1090-46C3-AAED-6F83036918E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57CED56-0C33-426C-A17D-C2691DEDA499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CED56-0C33-426C-A17D-C2691DEDA499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CED56-0C33-426C-A17D-C2691DEDA499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CED56-0C33-426C-A17D-C2691DEDA499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE3EF62-5886-4BED-97ED-92340025D46A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE3EF62-5886-4BED-97ED-92340025D46A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE3EF62-5886-4BED-97ED-92340025D46A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE3EF62-5886-4BED-97ED-92340025D46A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6DD43C-D652-427E-8D5D-0727EDB95BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6DD43C-D652-427E-8D5D-0727EDB95BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6DD43C-D652-427E-8D5D-0727EDB95BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6DD43C-D652-427E-8D5D-0727EDB95BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59FFD2FD-1090-46C3-AAED-6F83036918E5} = {F5C4B975-C7FA-430E-93C9-56F222867FBD}
+		{F5C4B975-C7FA-430E-93C9-56F222867FBD} = {21C4AB64-579D-449D-B1C9-42FCE2D4462E}
+		{E57CED56-0C33-426C-A17D-C2691DEDA499} = {F5C4B975-C7FA-430E-93C9-56F222867FBD}
+		{1DE3EF62-5886-4BED-97ED-92340025D46A} = {F5C4B975-C7FA-430E-93C9-56F222867FBD}
+		{0D6DD43C-D652-427E-8D5D-0727EDB95BFD} = {F5C4B975-C7FA-430E-93C9-56F222867FBD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {992BE44E-BD70-4437-8765-7F0AD205113C}
+	EndGlobalSection
+EndGlobal
